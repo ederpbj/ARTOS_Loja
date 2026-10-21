@@ -22,10 +22,11 @@ Host github-artos
   IdentityFile ~/.ssh/artos_deploy
   IdentitiesOnly yes
 EOF
+
 cd /var/www/projetos
 git clone git@github-artos:ederpbj/ARTOS_Loja.git artos
 
-
+# se perfil público, pode usar:
 git clone https://github.com/ederpbj/ARTOS_Loja.git artos
 
 # atualizações seguintes
