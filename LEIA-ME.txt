@@ -1,0 +1,14 @@
+ARTOS — Loja e Painel Administrativo (protótipo visual)
+
+ARQUIVOS
+- index.html: loja, catálogo, personalização de pedais, carrinho com resumo imediato e encaminhamento do pedido para WhatsApp.
+- admin.html: painel demonstrativo com dashboard, pedidos, clientes, financeiro, produtos, WhatsApp e configurações.
+
+TESTE
+1. Extraia o ZIP para uma pasta.
+2. Abra index.html para testar a loja. Ao adicionar um produto, o carrinho abre e mostra itens e subtotal.
+3. Abra admin.html. Clique no pedal ou em “Entrar no painel”, preencha os campos demonstrativos e avance para a tela MFA.
+4. No painel, em Pedidos e vendas, abra “Cupom / recibo” para imprimir ou preparar o resumo para WhatsApp. Em Produtos e estoque, exporte o catálogo CSV ou selecione um CSV para simular a importação.
+
+LIMITAÇÕES IMPORTANTES
+Este é um protótipo local: produtos, pedidos, clientes, valores e login são demonstrativos. O QR e a chave MFA são ilustrativos, não configuram Google/Microsoft Authenticator e não devem ser usados para segurança real. O upload/importação de CSV apenas seleciona o arquivo nesta versão. WhatsApp abre uma mensagem pré-preenchida; não é uma integração de API. A impressão é pelo navegador. Para produção, implementar backend, banco de dados, autenticação segura, TOTP real, armazenamento de arquivos, pagamentos e integração oficial de WhatsApp.
